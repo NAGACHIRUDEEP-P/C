@@ -14,7 +14,7 @@ int main() {
     percentage = (total / 500) * 100;  // Assuming each subject is out of 100
 
     // Output the percentage
-    printf("Percentage of 5 subjects = %f", percentage);
+    printf("Percentage of 5 subjects = %.2f%%", percentage);
 
     return 0;
 }
